@@ -1,0 +1,478 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 20px;
+    background-color: black;
+    width: 100vw;
+    justify-content: space-around;
+    position: absolute;
+}
+.search-box{
+    position: relative;
+    top: 10px;
+    left: 1330px;
+}
+nav{
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+    font: normal 20px 'Oswald', sans-serif;
+}
+nav ul li a{
+    color: #F4F4F4;
+    text-decoration: none;
+}
+nav ul input{
+    align-items: center;
+}
+.grey-bar{
+    width: 100vw;
+    height: 30px;
+    background-color: white;
+    text-align: right;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.grey-bar ul li{
+    display: inline-block;
+    flex-direction: row;
+    font: normal 14px 'Oswald', sans-serif;
+    margin-left: 20px;
+}
+.grey-bar ul li a{
+    color: #6E6E6E;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    background:url(images/vinyl1.jpg);
+    height: 144px;
+    width:1384px;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .overlay{
+    width: 1384px;
+    height:144px;
+    background:#136BC5;
+    opacity: 0.66;
+    position: absolute;
+}
+.container .text{
+    z-index: 2;
+    color: #F8F7F7;
+    font: normal 30px 'Verdana', sans-serif;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.container-2 .image-1{
+    display: flex;
+    position: relative;
+    top: 120px;
+    background:url(/images/vinyl2.jpg);
+    width: 678px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+}
+
+.container-2 .image-1 .overlay-1{
+    width: 678px;
+    height:150px;
+    background: #8B45F3;
+    opacity: 0.43;
+    position: absolute;
+}
+.container-2 .image-1 .text-1{
+    position: relative;
+    z-index: 2;
+    font: bold 30px 'Futura', sans-serif;
+    text-align: center;
+    border: 1px solid #3A3939;
+    background-color: white;  
+}
+.container-2 .image-1 .text-1 h2:hover{
+    background:black;
+    color:white;
+}
+.container-2 .image-1 .text-1 a{
+    color: #242323;
+    text-decoration: none;
+}
+.container-2 .image-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    background:url(/images/vinyl3.jpg);
+    width: 678px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 40px;
+}
+.container-2 .image-2 .overlay-2{
+    width: 678px;
+    height:150px;
+    background:#07EBCC;
+    opacity: 0.4;
+    position: absolute;
+}
+.container-2 .image-2 .text-2{
+    position: relative;
+    font: bold 30px 'Futura', sans-serif;
+    border: 1px solid #3A3939;
+    background-color: white;
+}
+.container-2 .image-2 .text-2 h2:hover{
+    background:black;
+    color:white;
+}
+.container-2 .image-2 .text-2 a{
+    color: #242323;
+    text-decoration: none;
+}
+.title-1{
+    text-align: center;
+    position: relative;
+    top:160px;
+    font: bold 20px 'Verdana', sans-serif;
+    color: #242323;
+}
+.products .product-card .product-info{
+    font:normal 20px 'Futura', sans-serif;
+    color: #242323;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.products .product-card .product-info .prices .new-price{
+    color: #EB280A;
+}
+.products .product-card .product-info h5{
+    font-weight: normal;
+}
+.products .product-card .product-info .prices .old-price{
+    text-decoration: line-through;
+}
+.label-2 h2:hover{
+    background: black;
+    color: white;
+}
+.products{
+    position: relative;
+    top: 130px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.products .product-card{
+    flex-grow:1;
+    flex-basis: 20%;
+    padding: 2%; 
+}
+
+.products .product-card .product-image img{
+    max-width: 100%;
+    width: 230px;
+}
+.title-2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top:120px;
+    padding-top: 20px;
+    font: bold 25px 'Verdana', sans-serif;
+    color: #242323;
+}
+
+.box{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.box .block{
+    flex-grow:1;
+    flex-basis: 33%;
+    padding: 1%;
+}
+.box .block .category-image img{
+    max-width: 100%;
+    width: 600px;
+    height: 300px;
+}
+.box .block .label{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box .block .label .label-2{
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    flex-wrap: wrap;
+    font: bold 25px 'Futura', sans-serif;
+    border: 1px solid #3A3939;
+    background-color: white;
+}
+.box .block .label .label-2 a{
+    color: #242323;
+    text-decoration: none;
+}
+.box .block .label .label-1{
+    position:absolute;
+    margin-right: 20px;
+    top: 180px;
+    text-align: center;
+    flex-wrap: wrap;
+    font: bold 25px 'Futura', sans-serif;
+    color: white;
+}
+.box .block .category-image .color-1{
+    width: 441px;
+    height:300px;
+    position: absolute;
+    top: 30px;
+    background: #8B45F3;
+    opacity: 0.43;
+}
+
+.box .block .category-image .color-2{
+    width: 441px;
+    height:300px;
+    position: absolute;
+    top: 30px;
+    background: #F8C99A;
+    opacity: 0.4;
+}
+.box .block .category-image .color-3{
+    width: 441px;
+    height:300px;
+    position: absolute;
+    top: 30px;
+    background: #4B8095;
+    opacity: 0.4;
+}
+footer{
+    background-color: #232323;
+    color: white;
+    width: 100vw;
+    height: 500px;
+    display: inline-block;
+    padding-left: 40px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+.footer-content{
+    display:flex;
+}
+.footer .subscribe-box{
+    padding: 40px;
+}
+.footer .subscribe-box .tbox{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+.footer .subscribe-box .btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0AB5CF;
+    color: white;
+    font: normal 15px 'Futura', sans-serif;
+}
+.footer .subscribe-box h2{
+    font:bold 25px 'Futura', sans-serif;
+    padding-bottom: 10px;
+}
+.footer .subscribe-box h4{
+    font:normal 15px 'Futura', sans-serif;
+    padding-bottom: 10px;
+}
+.footer .footer-left{
+    padding: 40px;
+    list-style-type: none;
+    font:normal 15px 'Futura', sans-serif;
+}
+.footer .footer-left ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.footer .footer-left ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer .footer-right{
+    padding: 40px;
+    list-style-type: none;
+    font:normal 15px 'Futura', sans-serif;
+}
+.footer .footer-right ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer .footer-right .store-info .contact li{
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+.footer .footer-right .store-info h3{
+    padding-bottom: 5px;
+}
+.footer .footer-right .media-links .socials li{
+    display:flex;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    font: normal 15px 'Futura', sans-serif ;
+}
+.footer .footer-right .media-links{
+    padding-top:50px;
+}
+.footer .footer-right .media-links h3{
+    padding-bottom: 5px;
+}
+.footer .bottom-footer{
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font: normal 15px 'Futura', sans-serif;
+}
+@media screen and (max-width: 620px){
+    .container{
+        width: 100%;
+        position: absolute;
+    }
+}
+@media screen and (max-width: 920px){
+    .container{
+        width: 100%
+    }
+}
+@media screen and (max-width: 620px){
+    .container .text{
+        font: normal 20px 'Verdana', sans-serif;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 920px){
+    .container .text{
+        font: normal 25px 'Verdana', sans-serif;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 620px){
+    .product-card{
+        flex: 1 50%
+    }
+}
+@media screen and (max-width: 620px){
+    .footer .subscribe-box .btn{
+        margin-top:5px;
+    }
+}
+@media screen and (max-width: 920px){
+    .footer .subscribe-box .btn{
+        margin-top:5px;
+    }
+}
+@media screen and (max-width: 620px){
+    .footer .subscribe-box h2{
+        font:bold 15px 'Futura', sans-serif;
+    }
+    .footer .subscribe-box h4{
+        font:normal 10px 'Futura', sans-serif;
+    }
+    .footer .subscribe-box .tbox{
+        width: 90px;
+        height: 20px;
+    }
+    .footer .subscribe-box{
+        padding: 20px 10px
+    }
+}
+@media screen and (max-width: 920px){
+    .footer .subscribe-box h2{
+        font:bold 20px 'Futura', sans-serif;
+    }
+    .footer .subscribe-box h4{
+        font:normal 15px 'Futura', sans-serif;
+    }
+    .footer .subscribe-box .tbox{
+        width: 120px;
+        height: 40px;
+    }
+    .footer .subscribe-box{
+        padding: 40px 30px
+    }
+}
+@media screen and (max-width: 620px){
+    .footer .footer-left{
+        padding: 20px 10px;
+        font:normal 10px 'Futura', sans-serif;
+    }
+}
+@media screen and (max-width: 620px){
+    .footer .footer-right{
+        padding: 20px 10px;
+        font:normal 10px 'Futura', sans-serif;
+    }
+}
+@media screen and (max-width: 620px){
+    .footer .footer-right{
+        padding: 20px 10px;
+        font:normal 10px 'Futura', sans-serif;
+    }
+}
+@media screen and (max-width: 620px){
+    .footer .footer-right .media-links .socials li{
+        font: normal 10px 'Futura', sans-serif ;
+    }
+}
+@media screen and (max-width: 620px){
+    .footer .bottom-footer{
+        position: relative;
+        top: 120px;
+        left: 30px;
+        font: normal 10px 'Futura', sans-serif;
+    }
+}
+@media screen and (max-width: 920px){
+    .footer .bottom-footer{
+        position: relative;
+        top: 100px;
+        left: 100px;
+        font: normal 15px 'Futura', sans-serif;
+    }
+}
+

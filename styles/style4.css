@@ -1,0 +1,447 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 20px;
+    background-color: black;
+    width: 100vw;
+    justify-content: space-around;
+    position: absolute;
+}
+.search-box{
+    position: relative;
+    top: 10px;
+    left: 1330px;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+    font: normal 20px 'Oswald', sans-serif;
+}
+nav ul li a{
+    color: #F4F4F4;
+    text-decoration: none;
+}
+nav ul input{
+    align-items: center;
+}
+.grey-bar{
+    width: 100vw;
+    height: 30px;
+    background-color: white;
+    text-align: right;
+    align-items: center;
+    padding: 5px 30px;
+}
+.grey-bar ul li a{
+    color: #6E6E6E;
+    text-decoration: none;
+}
+.grey-bar ul li{
+    display: inline-block;
+    flex-direction: row;
+    font: normal 14px 'Oswald', sans-serif;
+    margin-left: 20px;
+}
+.breadcrumb{
+    display: flex;
+    position: relative;
+    top: 100px;
+    right:20px;
+    padding: 30px 16px;
+    margin-left: 40px;
+    list-style: none;
+    font:normal 20px 'Futura', sans-serif;
+}
+.breadcrumb li a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.63;
+}
+.breadcrumb li{
+    padding: 5px;
+}
+.cart-info{
+    display: flex;
+    position: relative;
+    top:100px;
+    right:-40px;
+}
+.pictures .smallp{
+    position: relative;
+    top:-230px;
+}
+.pictures img{
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    padding-right: 15px;
+}
+.price-info{
+    display: inline-block;
+    padding-left: 20px;
+}
+.price-info h2{
+    font: bold 30px 'Futura', sans-serif;
+    color: #242323;
+}
+.price-info h4{
+    font: normal 20px 'Futura', sans-serif;
+    padding-top:5px
+}
+.quantity{
+    display:flex;
+    flex-direction: column;
+    padding-top: 15px;
+    font: normal 15px 'Futura', sans-serif;
+}
+.quantity select{
+    padding-top: 5px;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+}
+.buttons{
+    display: flex;
+}
+.buttons a{
+    text-decoration: none;
+}
+.button-container .btn{
+    margin-left:20px;
+    height:40px;
+    width: 200px;
+    position: relative;
+    top:33px;
+    font: normal 20px 'Futura', sans-serif;
+    background: #F04900;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    transition:0.5s;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 15%);
+    cursor: pointer;
+}
+.button-container .btn:hover{
+    background:#2E0F02;
+    cursor: pointer;
+}
+.button-container .btn a{
+    text-decoration: none;
+    color: white;
+}
+.share{
+    padding-top:20px;
+}
+.share h4{
+    font:bold 15px 'Futura', sans-serif;
+}
+.about p{
+    overflow-wrap:break-word;
+}
+.about h2{
+    font:bold 30px 'Futura', sans-serif;
+    margin: 5px 0;
+}
+.about p{
+    font:normal 20px 'Futura', sans-serif;
+
+}
+.about{
+    margin-top:100px;
+}
+.content{
+    margin:0 40px;
+    position: relative;
+}
+.price-title{
+    font:bold 25px 'Futura', sans-serif;
+    color:#EB280A
+}
+.column{
+    position: absolute;
+}
+.suggested{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    padding-top:50px
+}
+.suggested hr{
+    justify-content: center;
+    margin:0 40px;
+}
+.suggested .box-title{
+    position: relative;
+    top:-12px;
+    border: 1px solid #707070;
+    font: normal 25px 'Futura', sans-serif;
+    background: white;
+    line-height:40px;
+    padding:0 10px;
+}
+.product-info{
+    text-align: center;
+}
+
+.prices .old-price{
+    text-decoration: line-through;
+}
+.prices .new-price{
+    color: #EB280A;
+}
+.similar-vinyl{
+    margin:0 40px;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    font:normal 20px 'Futura', sans-serif;
+}
+
+.similar-vinyl h5{
+    font-weight: normal;
+    position: relative;
+}
+.products .product-card .product-info{
+    color: #242323;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.more{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 130px;
+    padding-top:20px
+}
+.more hr{
+    justify-content: center;
+    margin:0 40px;
+}
+.more .box2-title{
+    position: relative;
+    top:-12px;
+    border: 1px solid #707070;
+    font: normal 25px 'Futura', sans-serif;
+    background: white;
+    line-height:40px;
+    padding:0 10px;
+}
+.morevinyls{
+    display: flex;
+    flex-direction: row;
+    margin:0 40px;
+    position: relative;
+    top: 100px;
+}
+.product-card{
+    padding: 4% 0;
+    flex: 1 20%;
+}
+.product-image img{
+    max-height: 100%;
+}
+.product-info{
+    font:normal 20px 'Futura', sans-serif;
+}
+.product-info h5{
+    font-weight: normal;
+}
+footer{
+    background-color: #232323;
+    color: white;
+    width: 100vw;
+    height: 500px;
+    display: inline-block;
+    padding-left: 40px;
+    margin-top: 100px;
+}
+.footer-content{
+    display: flex;
+}
+.footer .subscribe-box{
+    padding: 40px;
+}
+.footer .subscribe-box .tbox{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+.footer .subscribe-box .btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0AB5CF;
+    color: white;
+    font: normal 15px 'Futura', sans-serif;
+}
+.footer .subscribe-box h2{
+    font:bold 25px 'Futura', sans-serif;
+    padding-bottom: 10px;
+}
+.footer .subscribe-box h4{
+    font:normal 15px 'Futura', sans-serif;
+    padding-bottom: 10px;
+}
+.footer .footer-left{
+    padding: 40px;
+    list-style-type: none;
+    font:normal 15px 'Futura', sans-serif;
+}
+.footer .footer-left ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.footer .footer-left ul li a{
+    color: white;
+    text-decoration: none;
+}
+.about{
+    margin-top: 3px;
+}
+
+.footer .footer-right{
+    padding: 40px;
+    list-style-type: none;
+    font:normal 15px 'Futura', sans-serif;
+}
+.footer .footer-right ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer .footer-right .store-info .contact li{
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+.footer .footer-right .store-info h3{
+    padding-bottom: 5px;
+}
+.footer .footer-right .store-info .contact li{
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+.footer .footer-right .store-info h3{
+    padding-bottom: 5px;
+}
+.footer .footer-right .media-links .socials li{
+    display:flex;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    font: normal 15px 'Futura', sans-serif ;
+}
+.footer .footer-right .media-links{
+    padding-top:50px;
+}
+.footer .footer-right .media-links h3{
+    padding-bottom: 5px;
+}
+.footer .bottom-footer{
+    position: relative;
+    left:500px;
+    top:100px;
+    font: normal 15px 'Futura', sans-serif;
+}
+.popup{
+    display:inline-block;
+    position: absolute;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 15%);
+    top:300px;
+    left:450px;
+    background: white;
+    border-radius: 10px;
+}
+.alert-message{
+    display:flex;
+}
+.alert-content{
+    display:flex;
+    padding:20px
+}
+
+.lprice{
+    display: flex;
+    white-space: nowrap;
+    border-right: 0.5px solid black;
+}
+.alert-content .lprice .vinylinfo{
+    font:normal 20px 'Futura', sans-serif;
+    padding:0 10px
+    
+}
+.alert-content .lprice .vinylinfo h4{
+    font-weight: normal;
+}
+.alert-message h4{
+    font: bold 25px 'Futura', sans-serif;
+    padding:5px;
+    color: #2B2A2A;
+}
+.icon{
+    padding: 10px
+}
+.op{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.rprice .subtotal{
+    display: flex;
+    padding: 0 10px;
+    font:normal 25px 'Futura', sans-serif;
+}
+.rprice .subtotal h4{
+    padding:0 5px;
+    font-weight:normal
+}
+.rprice .subtotal .pword{
+    opacity: 0.6;
+}
+.buttons{
+    padding-top:70px;
+    margin:0 20px;
+}
+.buttons button{
+    width: 135px;
+    height: 53px;
+    margin:0 10px;   
+    font: normal 12px 'Futura', sans-serif;
+    
+}
+#dismiss{
+    white-space: nowrap;
+    border-radius: 5px;
+    border: 1.5px solid #707070;
+    color: #242323;
+    background: white;
+}
+
+#checkout{
+    border-radius: 5px;
+    border: 1.5px solid #F65E1C;
+    background: #F65E1C;
+}
+#checkout a{
+    color: white;
+}
+#checkout:hover{
+    background:#2E0F02;
+    border: 1px solid #2E0F02;
+}
+#dismiss a{
+    color:black
+}
+#dismiss:hover{
+    background:rgb(216, 216, 216)
+} 
+    
+    

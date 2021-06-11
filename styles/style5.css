@@ -1,0 +1,364 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 20px;
+    background-color: black;
+    width: 100vw;
+    justify-content: space-around;
+    position: absolute;
+}
+.search-box{
+    position: relative;
+    top: 10px;
+    left: 1330px;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+    font: normal 20px 'Oswald', sans-serif;
+}
+nav ul li a{
+    color: #F4F4F4;
+    text-decoration: none;
+}
+nav ul input{
+    align-items: center;
+}
+.grey-bar{
+    width: 100vw;
+    height: 30px;
+    background-color: white;
+    text-align: right;
+    align-items: center;
+    padding: 5px 30px;
+}
+.grey-bar ul li a{
+    color: #6E6E6E;
+    text-decoration: none;
+}
+.grey-bar ul li{
+    display: inline-block;
+    flex-direction: row;
+    font: normal 14px 'Oswald', sans-serif;
+    margin-left: 20px;
+}
+.content{
+    display:inline-block;
+    padding:40px;
+    margin:0 20px;
+
+}
+.title{
+    position: relative;
+    top:100px;
+    font:bold 20px 'Futura', sans-serif;
+}   
+.price.info{
+    display:flex;
+}
+.description{
+    display:inline-block;
+    padding: 20px
+}
+.product-card{
+    display:flex;
+    padding-top:120px;
+    border: 1px solid rgba(112, 112, 112, 0.36);
+    padding: 20px 10px;
+    margin-top:110px;
+    position: relative;
+    
+}
+.price{
+    display:flex;
+    font:normal 15px 'Futura', sans-serif;
+    
+}
+.vinyltitle{
+    font:bold 25px 'Futura', sans-serif;
+}
+.unit-price{
+    font-weight:normal;
+    padding:5px 0
+}
+.new-price{
+    font-weight:normal;
+    text-decoration: line-through;
+    opacity:0.44;
+}
+.summary hr{
+    opacity: 0.26
+}
+.type{
+    font:normal 15px 'Futura', sans-serif;  
+}
+.type h2{
+    font-weight:normal;
+    padding-top: 20px;
+}
+.promo{
+    color:#EB280A;
+    font:normal 15px 'Futura', sans-serif;  
+    padding-top: 35px;
+}
+.promo h2{
+    font-weight:normal;
+}
+.buttons{
+    display:flex;
+    padding:20px
+}
+.quantity{
+    display:flex;
+    flex-direction: column;
+    padding-top: 15px;
+    font: normal 15px 'Futura', sans-serif;
+}
+.quantity select{
+    padding-top: 5px;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 15%);
+}
+.remove{
+    position:relative;
+    top:35px;
+    padding:0 10px;
+}
+.summary{
+    display:inline-block;
+    width:400px;
+
+}
+.checkout-block{
+    display:inline-block;
+    position: relative;
+    top:-305px;
+    left:980px;
+}
+.card-top{
+    border: 1px solid rgba(112, 112, 112, 0.26);
+    text-align: center;
+    
+}
+.summary-header{
+    font:bold 15px 'Futura', sans-serif;
+    text-align: center;
+    position: relative;
+    background:rgba(163, 160, 160, 0.22);
+    
+}
+.card{
+    display:flex;
+    justify-content: center;
+}
+.label{
+    display:inline-block;
+    padding-right: 100px
+      
+}
+.label ul{
+   list-style-type: none; 
+   font: normal 20px 'Futura', sans-serif;
+   text-align: left;
+}
+.label ul li{
+    padding:5px
+}
+.number ul{
+    list-style-type: none;
+    font: normal 20px 'Futura', sans-serif;
+    text-align: right;
+}
+.number ul li{
+    padding:5px
+}
+
+.total{
+    display:flex;
+    font: normal 20px 'Futura', sans-serif;
+    padding:0 5px;
+    border: 1 solid rgba(112 112, 112, 0.26);
+    justify-content: center;
+}
+.total h2{
+    margin: 0 40px;
+    padding-top:5px
+}
+.tword{
+    text-align: left;
+    position: relative;
+    right:5px
+}
+.tnumber{
+    text-align: right;
+    position: relative;
+    left: 5px
+}
+
+.discount{
+    margin: 10px 0; 
+}
+
+.box .pbox{
+    border:1px solid #707070;
+    height:40px;
+    padding: 0 5px;
+    width: 325px;
+}
+.btn{
+    height:40px;
+    border:1px solid black;
+    font: normal 20px 'Futura', sans-serif;
+    background: white;
+    line-height:40px;
+    padding: 3px 5px;
+    position: relative;
+    top:7px;
+    right:5px
+
+}
+.checkout-btn{
+    border-radius: 5px;
+    border: 1.5px solid #F65E1C;
+    height:70px;
+    width:400px;
+    background: #F65E1C;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 15%);
+    font:normal 25px 'Futura', sans-serif;
+}
+.checkout-btn a{
+    text-decoration: none;
+    color: white;
+}
+.checkout-button :hover{
+    background:#2E0F02;
+    border: 1.5px solid #2E0F02;
+}
+.checkout-button{
+    padding: 10px 0px;
+    transition: 0.8s;
+}
+.message{
+    display:inline-block;
+    background: rgba(143, 139, 139, 0.11);
+    border: 1px solid rgba(143, 139, 139, 0.11);;
+    padding:20px;
+    position: relative;
+    top:-280px
+}
+.message h2{
+    font:bold 25px 'Futura', sans-serif;
+}
+.message p{
+    font:normal 20px 'Futura', sans-serif;
+}
+footer{
+    background-color: #232323;
+    color: white;
+    width: 100vw;
+    height: 500px;
+    display: inline-block;
+    padding-left: 40px;
+    position: relative;
+}
+.footer-content{
+    display: flex;
+}
+.footer .subscribe-box{
+    padding: 40px;
+}
+.footer .subscribe-box .tbox{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+.footer .subscribe-box .btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0AB5CF;
+    color: white;
+    font: normal 15px 'Futura', sans-serif;
+    position: relative;
+    top:1px;
+    margin: 0 5px
+}
+.footer .subscribe-box h2{
+    font:bold 25px 'Futura', sans-serif;
+    padding-bottom: 10px;
+}
+.footer .subscribe-box h4{
+    font:normal 15px 'Futura', sans-serif;
+    padding-bottom: 10px;
+}
+.footer .footer-left{
+    padding: 40px;
+    list-style-type: none;
+    font:normal 15px 'Futura', sans-serif;
+}
+.footer .footer-left ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.footer .footer-left ul li a{
+    color: white;
+    text-decoration: none;
+}
+.about{
+    margin-top: 3px;
+}
+
+.footer .footer-right{
+    padding: 40px;
+    list-style-type: none;
+    font:normal 15px 'Futura', sans-serif;
+}
+.footer .footer-right ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer .footer-right .store-info .contact li{
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+.footer .footer-right .store-info h3{
+    padding-bottom: 5px;
+}
+.footer .footer-right .store-info .contact li{
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+.footer .footer-right .store-info h3{
+    padding-bottom: 5px;
+}
+.footer .footer-right .media-links .socials li{
+    display:flex;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    font: normal 15px 'Futura', sans-serif ;
+}
+.footer .footer-right .media-links{
+    padding-top:50px;
+}
+.footer .footer-right .media-links h3{
+    padding-bottom: 5px;
+}
+.footer .bottom-footer{
+    position: relative;
+    left:500px;
+    top:100px;
+    font: normal 15px 'Futura', sans-serif;
+}
+
