@@ -91,7 +91,7 @@ nav ul input{
     display: flex;
     position: relative;
     top: 120px;
-    background:url(/images/vinyl2.jpg);
+    background:url(images/vinyl2.jpg);
     width: 678px;
     height: 150px;
     align-items: center;
@@ -130,7 +130,7 @@ nav ul input{
     justify-content: center;
     position: relative;
     top: 120px;
-    background:url(/images/vinyl3.jpg);
+    background:url(images/vinyl3.jpg);
     width: 678px;
     height: 150px;
     background-size: cover;
